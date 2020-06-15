@@ -1,0 +1,6 @@
+framework module Pods_DotaDataRequestWithAlamofire {
+  umbrella header "Pods-DotaDataRequestWithAlamofire-umbrella.h"
+
+  export *
+  module * { export * }
+}
