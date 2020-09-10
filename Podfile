@@ -7,4 +7,5 @@ target 'DotaDataRequestWithAlamofire' do
 
   # Pods for DotaDataRequestWithAlamofire
 pod 'Alamofire', '~> 5.2'
+pod 'TinyConstraints'
 end
