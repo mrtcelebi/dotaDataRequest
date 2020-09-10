@@ -10,12 +10,16 @@
 		3B79C9C60F06D174F7C74543 /* Pods_DotaDataRequestWithAlamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CC9A6D9083B7313CC995E5 /* Pods_DotaDataRequestWithAlamofire.framework */; };
 		AD02306B2497A30D007C32FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02306A2497A30D007C32FE /* AppDelegate.swift */; };
 		AD02306D2497A30D007C32FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02306C2497A30D007C32FE /* SceneDelegate.swift */; };
-		AD02306F2497A30D007C32FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02306E2497A30D007C32FE /* ViewController.swift */; };
+		AD02306F2497A30D007C32FE /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02306E2497A30D007C32FE /* HomeController.swift */; };
 		AD0230722497A30D007C32FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0230702497A30D007C32FE /* Main.storyboard */; };
 		AD0230742497A30E007C32FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0230732497A30E007C32FE /* Assets.xcassets */; };
 		AD0230772497A30E007C32FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0230752497A30E007C32FE /* LaunchScreen.storyboard */; };
 		AD02307F2497A553007C32FE /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD02307E2497A553007C32FE /* Hero.swift */; };
 		AD0230812497A55E007C32FE /* HeroApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0230802497A55E007C32FE /* HeroApi.swift */; };
+		AD7A4C8E2509854C00C6F780 /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A4C8D2509854C00C6F780 /* HeroViewModel.swift */; };
+		AD7A4C91250985AD00C6F780 /* DotaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A4C90250985AD00C6F780 /* DotaCell.swift */; };
+		AD7A4C93250985BB00C6F780 /* DotaCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A4C92250985BB00C6F780 /* DotaCellViewModel.swift */; };
+		AD7A4C95250985CA00C6F780 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7A4C94250985CA00C6F780 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,13 +28,17 @@
 		AD0230672497A30D007C32FE /* DotaDataRequestWithAlamofire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotaDataRequestWithAlamofire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD02306A2497A30D007C32FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD02306C2497A30D007C32FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD02306E2497A30D007C32FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD02306E2497A30D007C32FE /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		AD0230712497A30D007C32FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD0230732497A30E007C32FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0230762497A30E007C32FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0230782497A30E007C32FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD02307E2497A553007C32FE /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 		AD0230802497A55E007C32FE /* HeroApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroApi.swift; sourceTree = "<group>"; };
+		AD7A4C8D2509854C00C6F780 /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+		AD7A4C90250985AD00C6F780 /* DotaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaCell.swift; sourceTree = "<group>"; };
+		AD7A4C92250985BB00C6F780 /* DotaCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotaCellViewModel.swift; sourceTree = "<group>"; };
+		AD7A4C94250985CA00C6F780 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D471562597D6AFA17D2163CC /* Pods-DotaDataRequestWithAlamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DotaDataRequestWithAlamofire.debug.xcconfig"; path = "Target Support Files/Pods-DotaDataRequestWithAlamofire/Pods-DotaDataRequestWithAlamofire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,15 +86,59 @@
 			children = (
 				AD02306A2497A30D007C32FE /* AppDelegate.swift */,
 				AD02306C2497A30D007C32FE /* SceneDelegate.swift */,
-				AD02307E2497A553007C32FE /* Hero.swift */,
-				AD0230802497A55E007C32FE /* HeroApi.swift */,
-				AD02306E2497A30D007C32FE /* ViewController.swift */,
+				AD7A4C8F2509858000C6F780 /* CustomCell */,
+				AD7A4C892509849500C6F780 /* Model */,
+				AD7A4C8A250984AA00C6F780 /* Network */,
+				AD7A4C8B250984E900C6F780 /* HomeVC */,
+				AD7A4C8C2509851200C6F780 /* Coordinator */,
 				AD0230702497A30D007C32FE /* Main.storyboard */,
 				AD0230732497A30E007C32FE /* Assets.xcassets */,
 				AD0230752497A30E007C32FE /* LaunchScreen.storyboard */,
 				AD0230782497A30E007C32FE /* Info.plist */,
 			);
 			path = DotaDataRequestWithAlamofire;
+			sourceTree = "<group>";
+		};
+		AD7A4C892509849500C6F780 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD02307E2497A553007C32FE /* Hero.swift */,
+				AD7A4C8D2509854C00C6F780 /* HeroViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD7A4C8A250984AA00C6F780 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AD0230802497A55E007C32FE /* HeroApi.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AD7A4C8B250984E900C6F780 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				AD02306E2497A30D007C32FE /* HomeController.swift */,
+				AD7A4C94250985CA00C6F780 /* HomeViewModel.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		AD7A4C8C2509851200C6F780 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AD7A4C8F2509858000C6F780 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				AD7A4C90250985AD00C6F780 /* DotaCell.swift */,
+				AD7A4C92250985BB00C6F780 /* DotaCellViewModel.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		DE2CE7A41327575C3224EC4D /* Frameworks */ = {
@@ -212,10 +264,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD02306F2497A30D007C32FE /* ViewController.swift in Sources */,
+				AD02306F2497A30D007C32FE /* HomeController.swift in Sources */,
+				AD7A4C95250985CA00C6F780 /* HomeViewModel.swift in Sources */,
 				AD02306B2497A30D007C32FE /* AppDelegate.swift in Sources */,
 				AD0230812497A55E007C32FE /* HeroApi.swift in Sources */,
 				AD02306D2497A30D007C32FE /* SceneDelegate.swift in Sources */,
+				AD7A4C8E2509854C00C6F780 /* HeroViewModel.swift in Sources */,
+				AD7A4C91250985AD00C6F780 /* DotaCell.swift in Sources */,
+				AD7A4C93250985BB00C6F780 /* DotaCellViewModel.swift in Sources */,
 				AD02307F2497A553007C32FE /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

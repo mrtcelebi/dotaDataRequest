@@ -9,8 +9,14 @@
 import Foundation
 
 struct Hero : Codable {
-    let localized_name: String
-    let attack_type: String
+    let name: String
+    let attackType: String
+    
+    enum CodingKeys: String, CodingKey {
+        case name =  "localized_name"
+        case attackType = "attack_type"
+    }
+    
 }
 
 
