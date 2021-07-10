@@ -3,10 +3,9 @@
 //  DotaDataRequestWithAlamofire
 //
 //  Created by Catalina on 9.09.2020.
-//  Copyright © 2020 Catalina. All rights reserved.
+//  Copyright © 2020 Catalina. All rights reserved
 //
 
-import UIKit
 import TinyConstraints
 
 class DotaCell: UITableViewCell {

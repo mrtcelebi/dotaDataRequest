@@ -90,7 +90,6 @@
 				AD7A4C892509849500C6F780 /* Model */,
 				AD7A4C8A250984AA00C6F780 /* Network */,
 				AD7A4C8B250984E900C6F780 /* HomeVC */,
-				AD7A4C8C2509851200C6F780 /* Coordinator */,
 				AD0230702497A30D007C32FE /* Main.storyboard */,
 				AD0230732497A30E007C32FE /* Assets.xcassets */,
 				AD0230752497A30E007C32FE /* LaunchScreen.storyboard */,
@@ -123,13 +122,6 @@
 				AD7A4C94250985CA00C6F780 /* HomeViewModel.swift */,
 			);
 			path = HomeVC;
-			sourceTree = "<group>";
-		};
-		AD7A4C8C2509851200C6F780 /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		AD7A4C8F2509858000C6F780 /* CustomCell */ = {

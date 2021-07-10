@@ -6,9 +6,7 @@
 //  Copyright © 2020 Catalina. All rights reserved.
 //
 
-import UIKit
-
-protocol DotaCellDataSource: class {
+protocol DotaCellDataSource: AnyObject {
     var title: String? { get }
     var attackType: String? { get }
 }
